@@ -13,11 +13,25 @@ class FrenchDeck:
     def __len__(self):
         return len(self._cards)
 
-    # def __getitem__(self, position):
-        # return self._cards[position]
+    def __getitem__(self, position):
+        return self._cards[position]
+
+    def __setitem__(self, position, card):
+        self._cards[position] = card
 
 
 # collections module
 # collections.namedtuple
 # list comprehensions
-# special methods: len, getitem
+# special methods: len, getitem, setitem
+
+# Collections contains several useful container datatypes.  
+# - namedtuple()  
+# - deque  
+# - ChainMap  
+# - Counter  
+# - OrderedDict  
+# - defaultdict  
+# - userdict  
+# - UserList  
+# - UserString  

@@ -89,4 +89,4 @@ ENV/
 .ropeproject
 
 # Vim stuff
-# .swp
+.swp
